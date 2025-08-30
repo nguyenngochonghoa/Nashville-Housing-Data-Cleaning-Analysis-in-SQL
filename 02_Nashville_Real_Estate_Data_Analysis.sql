@@ -43,7 +43,6 @@ HAVING COUNT(*) >= 5
 ORDER BY AveragePrice DESC;
 
 -- Analyze how property age affects value
-
 SELECT
     CASE
         WHEN (YEAR(GETDATE()) - YearBuilt) <= 10 THEN '0-10 Years'
@@ -85,51 +84,19 @@ HAVING COUNT(*) >= 5
 ORDER BY AveragePrice DESC;
 
 -- Identify potential investment opportunities
-SELECT
-    ParcelID,
-    PropertySplitAddress,
-    PropertySplitCity,
+SELECT 
     LandUse,
-    SalePrice,
-    TotalValue,
-    (SalePrice - TotalValue) AS ValueDifference,
-    ROUND(((SalePrice - TotalValue)/NULLIF(TotalValue, 0)) * 100, 2) AS ReturnPercentage,
-    CASE
-        WHEN SalePrice <= TotalValue * 0.8 THEN 'Excellent Deal'
-        WHEN SalePrice <= TotalValue * 0.9 THEN 'Good Deal'
-        WHEN SalePrice <= TotalValue * 1.1 THEN 'Fair Price'
-        ELSE 'Overpriced'
-    END AS DealRating
-FROM PortfolioProject.dbo.[Nashville Housing]
-WHERE SalePrice > 0 
-    AND TotalValue > 0
-    AND (SalePrice - TotalValue) < 0 
-ORDER BY ReturnPercentage ASC;
-
--- Land value efficiency analysis
-SELECT
-    CASE
-        WHEN Acreage <= 0.5 THEN '0-0.5 Acres'
-        WHEN Acreage <= 1 THEN '0.5-1 Acre'
-        WHEN Acreage <= 2 THEN '1-2 Acres'
-        WHEN Acreage <= 5 THEN '2-5 Acres'
-        ELSE '5+ Acres'
-    END AS AcreageCategory,
-    COUNT(*) AS PropertyCount,
-    AVG(CONVERT(BIGINT, SalePrice)) AS AveragePrice,
-    AVG(Acreage) AS AverageAcreage,
-    AVG(SalePrice/NULLIF(Acreage, 0)) AS PricePerAcre,
-    AVG(LandValue/NULLIF(Acreage, 0)) AS LandValuePerAcre
-FROM PortfolioProject.dbo.[Nashville Housing]
-WHERE Acreage > 0 AND SalePrice > 0
-GROUP BY CASE
-    WHEN Acreage <= 0.5 THEN '0-0.5 Acres'
-    WHEN Acreage <= 1 THEN '0.5-1 Acre'
-    WHEN Acreage <= 2 THEN '1-2 Acres'
-    WHEN Acreage <= 5 THEN '2-5 Acres'
-    ELSE '5+ Acres'
-END
-ORDER BY PricePerAcre DESC;
+    COUNT(*) AS DealCount,
+    AVG(ReturnPercentage) AS AvgDiscountPercent
+FROM (
+    SELECT
+        LandUse,
+        ROUND(((SalePrice - TotalValue)/NULLIF(TotalValue, 0)) * 100, 2) AS ReturnPercentage
+    FROM PortfolioProject.dbo.[Nashville Housing]
+    WHERE SalePrice > 0 AND TotalValue > 0 AND (SalePrice - TotalValue) < 0
+) t
+GROUP BY LandUse
+ORDER BY AvgDiscountPercent ASC;
 
 -- Analyze seasonal patterns in real estate
 SELECT
