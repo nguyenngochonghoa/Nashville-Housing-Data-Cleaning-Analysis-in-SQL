@@ -112,9 +112,9 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 
 ### 5. Room Count and Price
 
-- **Result Table 1**  
+- **Query Example**  
   ![SQL Query for Room Count and Price](https://drive.google.com/uc?export=view&id=1TeLAKr2O7yOnRKnNu38akODVUWS3HXg0)
-- **Result Table 2**  
+- **Query Result**  
   ![Room Count and Price Table](https://drive.google.com/uc?export=view&id=1tzj0U81a8jYn0Gpk1hK8-R08TBwIaHi2)
 
 **Insight:**
@@ -131,9 +131,9 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 
 ### 6. Investment Opportunities
 
-- **Result Table 1**  
+- **Query Example**  
   ![SQL Query for Investment Opportunities](https://drive.google.com/uc?export=view&id=14HdskdU0tby70D-uKciv5ouLNO5RpSnS)
-- **Result Table 2**  
+- **Query Result**  
   ![Investment Opportunities Table](https://drive.google.com/uc?export=view&id=1B6RoQCfJN-lCT1AwPQY1xpL0demBAq2a)
 
 **Insight:**
@@ -147,9 +147,9 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 
 ### 7. Seasonal Patterns
 
-- **Result Table 1**  
+- **Query Example**  
   ![SQL Query for Seasonal Trends](https://drive.google.com/uc?export=view&id=11gUbtUmwxEPqM-z0Sz7BUUQWDJHJ3s_B)
-- **Result Table 2**  
+- **Query Result**  
   ![Seasonal Trends Table](https://drive.google.com/uc?export=view&id=1Q28komITBwDX69Vibcp9GZiKVxX_OYGe)
 
 **Insight:**
