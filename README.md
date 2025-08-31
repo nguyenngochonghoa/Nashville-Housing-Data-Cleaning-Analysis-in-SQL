@@ -53,9 +53,9 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 ### 1. Housing Sales Trends Over Time
 
 - **Query Example**  
-  ![SQL Query for Sales Trends](image-13.png)
+  ![SQL Query for Sales Trends](https://drive.google.com/uc?export=view&id=1AEtECnydV_T6NKUtNS7MSikWSs7dZz0F)
 - **Query Result**  
-  ![Sales Trends Table](image-14.png)
+  ![Sales Trends Table](https://drive.google.com/uc?export=view&id=1LoyTJ05ohExOfqyvHQgDK-2T-Tzkw0kQ)
 
 **Insight:** Housing sales in Nashville grew **sharply between 2013–2016**, in both **volume and revenue**.  
 **Takeaway:** The market expanded rapidly, but outlier transactions inflated averages → investors should watch for anomalies.
@@ -65,9 +65,9 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 ### 2. Land Use Differences
 
 - **Query Example**  
-  ![SQL Query for Land Use](image-11.png)
+  ![SQL Query for Land Use](https://drive.google.com/uc?export=view&id=1Wb8DA88ADepescjRDMld7j0HRnEJYjjF)
 - **Query Result**  
-  ![Land Use Values Table](image-12.png)
+  ![Land Use Values Table](https://drive.google.com/uc?export=view&id=1kkhGchC_WehPR6dT7ibmKHwyC1woIdyp)
 
 **Insight:**
 
@@ -81,9 +81,9 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 ### 3. Tax District Comparisons
 
 - **Query Example**  
-  ![SQL Query for Tax Districts](image-9.png)
+  ![SQL Query for Tax Districts](https://drive.google.com/uc?export=view&id=19M2dlaStwXM-61OMUOOqzPnmNwCUO_nS)
 - **Query Result**  
-  ![SQL Query for Tax Districts](image-10.png)
+  ![SQL Query for Tax Districts](https://drive.google.com/uc?export=view&id=12EiSAfydf_IE1PyYe6sIHDZAQJwTf7_m)
 
 **Insight:**
 
@@ -97,9 +97,9 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 ### 4. Property Age and Value
 
 - **Query Example**  
-  ![SQL Query for Property Age](image-6.png)
+  ![SQL Query for Property Age](https://drive.google.com/uc?export=view&id=1AHTkBmTeUF_1PqJIEWkSd2CCAdnZYLt9)
 - **Query Result**  
-  ![Property Age and Value Table](image-7.png)
+  ![Property Age and Value Table](https://drive.google.com/uc?export=view&id=1MGNwtEJaF8NZ9qKcgOqtmStgm1ZiNjcl)
 
 **Insight:**
 
@@ -113,9 +113,9 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 ### 5. Room Count and Price
 
 - **Result Table 1**  
-  ![SQL Query for Room Count and Price](image-4.png)
+  ![SQL Query for Room Count and Price](https://drive.google.com/uc?export=view&id=1TeLAKr2O7yOnRKnNu38akODVUWS3HXg0)
 - **Result Table 2**  
-  ![Room Count and Price Table](image-5.png)
+  ![Room Count and Price Table](https://drive.google.com/uc?export=view&id=1tzj0U81a8jYn0Gpk1hK8-R08TBwIaHi2)
 
 **Insight:**
 
@@ -132,9 +132,9 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 ### 6. Investment Opportunities
 
 - **Result Table 1**  
-  ![SQL Query for Investment Opportunities](image-3.png)
+  ![SQL Query for Investment Opportunities](https://drive.google.com/uc?export=view&id=14HdskdU0tby70D-uKciv5ouLNO5RpSnS)
 - **Result Table 2**  
-  ![Investment Opportunities Table](image-2.png)
+  ![Investment Opportunities Table](https://drive.google.com/uc?export=view&id=1B6RoQCfJN-lCT1AwPQY1xpL0demBAq2a)
 
 **Insight:**
 
@@ -150,7 +150,7 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 - **Result Table 1**  
   ![SQL Query for Seasonal Trends](https://drive.google.com/uc?export=view&id=11gUbtUmwxEPqM-z0Sz7BUUQWDJHJ3s_B)
 - **Result Table 2**  
-  ![Seasonal Trends Table](image-1.png)
+  ![Seasonal Trends Table](https://drive.google.com/uc?export=view&id=1Q28komITBwDX69Vibcp9GZiKVxX_OYGe)
 
 **Insight:**
 
