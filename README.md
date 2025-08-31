@@ -53,9 +53,9 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 ### 1. Housing Sales Trends Over Time
 
 - **Query Example**  
-  ![SQL Query for Sales Trends](image.png)
+  ![SQL Query for Sales Trends](image-13.png)
 - **Query Result**  
-  ![Sales Trends Table](image-1.png)
+  ![Sales Trends Table](image-14.png)
 
 **Insight:** Housing sales in Nashville grew **sharply between 2013–2016**, in both **volume and revenue**.  
 **Takeaway:** The market expanded rapidly, but outlier transactions inflated averages → investors should watch for anomalies.
@@ -65,9 +65,9 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 ### 2. Land Use Differences
 
 - **Query Example**  
-  ![SQL Query for Land Use](image-2.png)
+  ![SQL Query for Land Use](image-11.png)
 - **Query Result**  
-  ![Land Use Values Table](image-3.png)
+  ![Land Use Values Table](image-12.png)
 
 **Insight:**
 
@@ -81,9 +81,9 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 ### 3. Tax District Comparisons
 
 - **Query Example**  
-  ![SQL Query for Tax Districts](image-4.png)
+  ![SQL Query for Tax Districts](image-9.png)
 - **Query Result**  
-  ![Tax Districts Table](image-5.png)
+  ![SQL Query for Tax Districts](image-10.png)
 
 **Insight:**
 
@@ -113,9 +113,9 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 ### 5. Room Count and Price
 
 - **Result Table 1**  
-  ![Bedroom and Price Relationship](image-8.png)
+  ![SQL Query for Room Count and Price](image-4.png)
 - **Result Table 2**  
-  ![Bathroom and Price Relationship](image-9.png)
+  ![Room Count and Price Table](image-5.png)
 
 **Insight:**
 
@@ -132,9 +132,9 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 ### 6. Investment Opportunities
 
 - **Result Table 1**  
-  ![Undervalued Properties Table 1](image-11.png)
+  ![SQL Query for Investment Opportunities](image-3.png)
 - **Result Table 2**  
-  ![Undervalued Properties Table 2](image-10.png)
+  ![Investment Opportunities Table](image-2.png)
 
 **Insight:**
 
@@ -148,9 +148,9 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 ### 7. Seasonal Patterns
 
 - **Result Table 1**  
-  ![Seasonal Trends by Price](image-12.png)
+  ![SQL Query for Seasonal Trends](image.png)
 - **Result Table 2**  
-  ![Seasonal Trends by Volume](image-13.png)
+  ![Seasonal Trends Table](image-1.png)
 
 **Insight:**
 
