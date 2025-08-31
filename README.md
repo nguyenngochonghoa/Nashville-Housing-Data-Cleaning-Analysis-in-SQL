@@ -183,12 +183,5 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 
 ## Next Steps
 
-- Build a **dashboard (Power BI / Tableau)** for visualizing insights
-- Develop **predictive models (Python/ML)** for property value forecasting
-
----
-
-## Call to Action
-
-📂 Check out the SQL scripts in the `/queries` folder.  
-🚀 Future work: Interactive dashboard coming soon.
+Check out the SQL scripts in the `/queries` folder.  
+Future work: Interactive dashboard coming soon.
