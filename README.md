@@ -148,7 +148,7 @@ Through SQL transformations, I ensured the dataset was **clean, reliable, and re
 ### 7. Seasonal Patterns
 
 - **Result Table 1**  
-  ![SQL Query for Seasonal Trends](https://drive.google.com/file/d/11gUbtUmwxEPqM-z0Sz7BUUQWDJHJ3s_B/view?usp=drive_link)
+  ![SQL Query for Seasonal Trends](https://drive.google.com/uc?export=view&id=11gUbtUmwxEPqM-z0Sz7BUUQWDJHJ3s_B)
 - **Result Table 2**  
   ![Seasonal Trends Table](image-1.png)
 
